@@ -97,9 +97,9 @@ const Contact = () => {
             <label className = "flex flex-col">
               <span className = "text-white font-medium mb-4"> Your E-Mail</span>
               <input
-              type = "E-Mail"
-              name = "E-Mail"
-              value = {form.name}
+              type = "email"
+              name = "email"
+              value = {form.email}
               onChange = {handleChange}
               placeholder = "What's your E-Mail?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
@@ -114,7 +114,7 @@ const Contact = () => {
               <textarea
               rows="7"
               name = "message"
-              value = {form.name}
+              value = {form.message}
               onChange = {handleChange}
               placeholder = "message"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
