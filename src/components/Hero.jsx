@@ -1,6 +1,9 @@
 import {color, motion} from 'framer-motion';
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas';
+import Typewriter from 'typewriter-effect';
+import { LoopRepeat } from 'three';
+
 
 const Hero = () => {
   return (
@@ -18,7 +21,19 @@ const Hero = () => {
 
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Undergrad developer looking <br className="sm:block hidden"/>for employment oppurtuniteis <br className="sm:block hidden"/>
+            <Typewriter
+            
+            onInit = {(typewriter) => {
+              typewriter.typeString('I am a <span style="color: #915eff;">Student</span>').pauseFor(2000).deleteChars(8)
+              typewriter.typeString('<span style="color: #915eff;"> team player</span').pauseFor(2000).deleteChars(12)
+              typewriter.typeString('<span style="color: #915eff;"> passionate programmer</span').pauseFor(2000).deleteAll()
+
+              
+              
+              .start();
+            }}
+            options={{loop: true, delay: 60, deleteSpeed: 60}}
+            />
             
 
           </p>
@@ -26,7 +41,6 @@ const Hero = () => {
 
 
       </div>
-        <ComputersCanvas />
 
         <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
           <a href="#about">

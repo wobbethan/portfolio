@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Undergraduate Student",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "3rd year CompSci Student",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "May 2024 Expected Graduation",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Seeking Employment/Internships",
       icon: creator,
     },
   ];
@@ -307,7 +307,7 @@ import {
 
         {
           name: "MySQL",
-          color: "white-text-gradient",
+          color: "orange-text-gradient",
         },
 
       ],

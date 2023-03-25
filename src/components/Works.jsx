@@ -22,8 +22,9 @@ const ProjectCard = ({
         fadeIn("up","spring", index*0.5, 0.75)
       }>  
       <div
-        //onMouseEnter={scale(1.2)}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[220px] flex justift-evenly items-center flex-col "
+        
+        className="bg-046e8f p-5 rounded-2xl sm:w-[360px] w-full min-h-[220px] flex justift-evenly items-center flex-col "
+        style = {{backgroundColor: '#046e8f'}}
       >        <div className = "relative w-full h-[230px]">
           <img
           src ={image}
@@ -48,7 +49,7 @@ const ProjectCard = ({
         </div>
         <div className= "mt-5">
           <h3 className = "text-white font-bold text-[24px]"> {name}</h3>
-          <p className = "mt-2 text-secondary text-[14px]">{description}</p>
+          <p className = "mt-2 text-white text-[14px]">{description}</p>
 
         </div>
 
@@ -80,7 +81,7 @@ const Works = () => {
     <div className = "w-full flex">
       <motion.p
       variants = {fadeIn("","",0.1, 1)}
-      className = "mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      className = "mt-3 text-white text-[17px] max-w-3xl leading-[30px]"
       >
         Projects created for school assignments, hackathons, and practice. Each project has hours of problem solving, research, and dedication behind it. From numerous projects and homework assignments I chose the following to demonstrate my capabilities as a software engineer
 

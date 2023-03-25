@@ -14,7 +14,7 @@ const Navbar = () => {
      className={`${styles.paddingX} w-full flex
      items-center py-5 fixed top-0 z-20 
      bg-primary`}
-     >
+     style = {{backgroundColor: '#046e8f'}}     >
       <div className = "w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
         to = "/"
@@ -31,7 +31,7 @@ const Navbar = () => {
           
           </p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-10'  >
           {navLinks.map((link) => (
             <li
             key={link.id}
@@ -64,9 +64,9 @@ const Navbar = () => {
             key={link.id}
               className = {`${
                 active === link.title 
-                ? "text-white"
-                : "text-secondary"
-              } hover:text-white text-[18px] font-poppins font-medium cursor-pointer text-[16px]`}
+                ? "text-secondary"
+                : "text-white"
+              } hover:text-secondary text-[18px] font-poppins font-medium cursor-pointer text-[16px]`}
               onClick ={() => setToggle(!toggle)}
             >
 
