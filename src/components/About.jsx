@@ -22,8 +22,8 @@ const ServiceCard = ({index, title, icon}) => {
         transitionSpeed={450}
         //glareEnable = {true}
         //glareColor = {'#FFFFFF'}
-       //glareMaxOpacity = {0.3}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[220px] flex justift-evenly items-center flex-col green-pink-gradient"
+        //glareMaxOpacity = {0.3}
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[220px] flex justift-evenly items-center flex-col blue-purp-gradient"
       >
         <img
           src={icon}
@@ -53,7 +53,7 @@ const About = () => {
     </motion.div>
     <motion.p 
     variants={fadeIn("","",0.1,1)}
-    className = "mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+    className = "mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
     >
       I am a 3rd year computer science student at the University of Florida seeking internships and career opportunities. I have experience developing both business proprietary software and fun personal projects. I enjoy working in team enviornmnets to overcome and solve seemingly impossible problems.
 
