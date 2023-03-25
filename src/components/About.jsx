@@ -55,7 +55,7 @@ const About = () => {
     variants={fadeIn("","",0.1,1)}
     className = "mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
     >
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nihil possimus, amet ex, quidem earum nisi perferendis sed architecto id eum. Sapiente in similique inventore quas, adipisci eligendi eius! Nam!
+      I am a 3rd year computer science student at the University of Florida seeking internships and career opportunities. I have experience developing both business proprietary software and fun personal projects. I enjoy working in team enviornmnets to overcome and solve seemingly impossible problems.
 
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>

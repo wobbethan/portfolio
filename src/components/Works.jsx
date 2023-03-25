@@ -21,7 +21,8 @@ const ProjectCard = ({
       <motion.div variants={
         fadeIn("up","spring", index*0.5, 0.75)
       }>  
-<div
+      <div
+        //onMouseEnter={scale(1.2)}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[220px] flex justift-evenly items-center flex-col "
       >        <div className = "relative w-full h-[230px]">
           <img
@@ -81,11 +82,7 @@ const Works = () => {
       variants = {fadeIn("","",0.1, 1)}
       className = "mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Following projects showcases my skills and experience through
-        real-world examples of my work. Each project is briefly described with
-        links to code repositories and live demos in it. It reflects my
-        ability to solve complex problems, work with different technologies,
-        and manage projects effectively.
+        Projects created for school assignments, hackathons, and practice. Each project has hours of problem solving, research, and dedication behind it. From numerous projects and homework assignments I chose the following to demonstrate my capabilities as a software engineer
 
       </motion.p>
       

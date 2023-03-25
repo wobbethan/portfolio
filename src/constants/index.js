@@ -101,7 +101,7 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Golang",
       icon: git,
     },
     {
@@ -115,58 +115,45 @@ import {
   ];
   
   const experiences = [
+    
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "IT Intern",
+      company_name: "Florida Stucco | Pool Plaster Manufacturer",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2019 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created properitary software to keep track of shipping information and assit in company scheduling, included import/export counts as well as real time weather radar",
+        "Developing and maintaining company property and other related technologies.",
+        "Company liason for larger tech companies and service providers",
+        "Assisted in other departments such as accounting, production, and customer service handling day to day activites such as customer calls, scheduling product pickups, and general AR/AP",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Guitar Instructor",
+      company_name: "UF Gator for Music club",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsible for instruction and mentoring of students",
+        "Students start with no experience then perform in end of semester recital ",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Miscellaneous Experiences",
+      company_name: "",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "January 2018 - May 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Digital media volunteer through multiple south Florida churches",
+        "Theater Camera Operator",
+        "Delivery Driver",
+        
       ],
     },
+
   ];
   
   const testimonials = [
@@ -198,67 +185,134 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Miami Heat Game Tracker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Fictional Database of 100,000 randomly generated Miami Heat Games. Purpose of project was to compare efficiency of RB-Trees with B-Tree",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Visual Studio",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Team Project",
           color: "pink-text-gradient",
         },
+
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/wobbethan/MiamiHeatGameTracker",
     },
     {
-      name: "Job IT",
+      name: "3-Band Equalizer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Controls the low, mid, and high frequencies of audio , program is implemented as a vst3 plugin and is compatible with professional digital audio workstations",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Visual Studio",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Projucer Framework",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/wobbethan/3BandEQ",
     },
     {
-      name: "Trip Guide",
+      name: "Dungeon Speed-Runner",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "this game is set in a dungeon created with the Unity engine where the user is timed on how long it takes for them to find 5 hidden scrolls throughout the dungeon.",
       tags: [
         {
-          name: "nextjs",
+          name: "Unity Engine",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Entertainment Software",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/wobbethan/dungeon-speedrunner",
+    },
+    {
+      name: "Tiny Avalanche",
+      description:
+        "Generates textured terrain from Perlin noise input simulating mountains with snow peaks and valleys with lakes. Upon button click, an avalanche occurs from the mountain peaks slowly coating the rest of the terrain in snow.",
+      tags: [
+        {
+          name: "Processing",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Java",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/wobbethan/TinyAvalanche",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "This website itself is one of my projects! Using internet tutorials and documentation I was able to create my very own porfolio website",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ThreeJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
+
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/wobbethan/portfolio",
+    },
+
+    {
+      name: "Ga1ors",
+      description:
+        "Ga1ors is a community based chat forum for the University of Florida. Everyday, the forum can contain X amount of posts, where X is equivalent to 1% of the student population. At the end of each day, the forum is wiped clean",
+      tags: [
+        {
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Golang",
+          color: "green-text-gradient",
+        },
+       
+        {
+          name: "Team Project (Backend)",
+          color: "pink-text-gradient",
+        },
+
+        {
+          name: "MySQL",
+          color: "white-text-gradient",
+        },
+
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Reece-McDonald/Software-Engineering",
     },
   ];
   
