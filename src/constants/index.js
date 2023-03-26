@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-  import threeBand from "../assets/threeBand.png"
+  import threeBand from "../assets/threeband.gif"
   import golang from "../assets/golang.png"
   import cpp from "../assets/cpp.png"
   import angular from "../assets/angular.png"
@@ -36,6 +36,10 @@ import {
   import hire from "../assets/hire.png"
   import test from "../assets/test.gif"
   import working from "../assets/working.gif"
+  import heattrack from "../assets/heattrack.gif"
+  import dung from "../assets/dung.gif"
+  import website from "../assets/website.gif"
+
   
   export const navLinks = [
     {
@@ -209,7 +213,7 @@ import {
         },
 
       ],
-      image: test,
+      image: heattrack,
       source_code_link: "https://github.com/wobbethan/MiamiHeatGameTracker",
     },
     {
@@ -230,7 +234,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: threeBand,
       source_code_link: "https://github.com/wobbethan/3BandEQ",
     },
     {
@@ -248,7 +252,7 @@ import {
         },
 
       ],
-      image: tripguide,
+      image: dung,
       source_code_link: "https://github.com/wobbethan/dungeon-speedrunner",
     },
     {
@@ -288,7 +292,7 @@ import {
         },
 
       ],
-      image: tripguide,
+      image: website,
       source_code_link: "https://github.com/wobbethan/portfolio",
     },
 
