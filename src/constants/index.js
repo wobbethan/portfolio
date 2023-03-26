@@ -24,6 +24,18 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+  import threeBand from "../assets/threeBand.png"
+  import golang from "../assets/golang.png"
+  import cpp from "../assets/cpp.png"
+  import angular from "../assets/angular.png"
+  import sql from "../assets/sql.png"
+  import uf from "../assets/company/UF.png"
+  import fl from "../assets/flstucco.png"
+  import cal from "../assets/cal.png"
+  import three from "../assets/three.png"
+  import hire from "../assets/hire.png"
+  import test from "../assets/test.gif"
+  import working from "../assets/working.gif"
   
   export const navLinks = [
     {
@@ -80,37 +92,31 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+
     {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+
     {
       name: "Three JS",
       icon: threejs,
     },
     {
       name: "Golang",
-      icon: git,
+      icon: golang,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "angular",
+      icon: angular,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "sql",
+      icon: sql,
+    },
+    {
+      name: "cpp",
+      icon: cpp,
     },
   ];
   
@@ -203,7 +209,7 @@ import {
         },
 
       ],
-      image: carrent,
+      image: test,
       source_code_link: "https://github.com/wobbethan/MiamiHeatGameTracker",
     },
     {
@@ -311,7 +317,7 @@ import {
         },
 
       ],
-      image: tripguide,
+      image: working,
       source_code_link: "https://github.com/Reece-McDonald/Software-Engineering",
     },
   ];

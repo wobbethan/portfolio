@@ -89,8 +89,8 @@ const Contact = () => {
               value = {form.name}
               onChange = {handleChange}
               placeholder = "What's your name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              style = {{backgroundColor: '#022f40'}}
+              className="bg-tertiary py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium"
+              style = {{backgroundColor: '#046e8f'}}
               />
               
               
@@ -104,8 +104,8 @@ const Contact = () => {
               value = {form.email}
               onChange = {handleChange}
               placeholder = "What's your E-Mail?"
-              className=" py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              style = {{backgroundColor: '#022f40'}}
+              className=" py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium"
+              style = {{backgroundColor: '#046e8f'}}
               />
               
               
@@ -120,8 +120,8 @@ const Contact = () => {
               value = {form.message}
               onChange = {handleChange}
               placeholder = "message"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              style = {{backgroundColor: '#022f40'}}
+              className="bg-tertiary py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium"
+              style = {{backgroundColor: '#046e8f'}}
               />
               
               
@@ -130,7 +130,7 @@ const Contact = () => {
             <button
             type = 'submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
-            style = {{backgroundColor: '#022f40'}}            >
+            style = {{backgroundColor: '#046e8f'}}            >
               {loading? 'Sending...': 'Send'}
 
             </button>

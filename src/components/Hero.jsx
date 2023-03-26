@@ -24,7 +24,7 @@ const Hero = () => {
             <Typewriter
             
             onInit = {(typewriter) => {
-              typewriter.typeString('I am a <span style="color: #915eff;">Student</span>').pauseFor(2000).deleteChars(8)
+              typewriter.typeString('I am a <span style="color: #915eff;">student</span>').pauseFor(2000).deleteChars(8)
               typewriter.typeString('<span style="color: #915eff;"> team player</span').pauseFor(2000).deleteChars(12)
               typewriter.typeString('<span style="color: #915eff;"> passionate programmer</span').pauseFor(2000).deleteAll()
 
