@@ -28,7 +28,7 @@ const ServiceCard = ({index, title, icon}) => {
         <img
           src={icon}
           alt='web-development'
-          className='w-24 h-24 object-contain z-[20px]'
+          className='w-32 h-32 object-contain z-[20px]'
           
         />
 
@@ -55,8 +55,7 @@ const About = () => {
     variants={fadeIn("","",0.1,1)}
     className = "mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
     >
-      I am a 3rd year computer science student at the University of Florida seeking internships and career opportunities. I have experience developing both business proprietary software and fun personal projects. I enjoy working in team enviornmnets to overcome and solve seemingly impossible problems.
-
+      I am a 3rd year computer science student at the University of Florida seeking internships and career opportunities. I have experience developing both business proprietary software and fun personal projects. I enjoy working in team environments to overcome and solve seemingly impossible problems.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

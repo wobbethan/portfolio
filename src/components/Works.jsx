@@ -7,6 +7,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import ParallaxTilt from 'react-parallax-tilt'
+
 
 const ProjectCard = ({
   index,
@@ -21,6 +23,17 @@ const ProjectCard = ({
       <motion.div variants={
         fadeIn("up","spring", index*0.5, 0.75)
       }>  
+      <ParallaxTilt
+        
+        tiltMaxAngleX={-5}
+        tiltMaxAngleY={-5}
+        scale={1.05}
+        transitionSpeed={450}
+        perspective = {1000}
+        //glareEnable = {true}
+        //glareColor = {'#FFFFFF'}
+        //glareMaxOpacity = {0.3}
+      >
       <div
         
         className="bg-046e8f p-5 rounded-2xl sm:w-[360px] w-full min-h-[220px] flex justift-evenly items-center flex-col "
@@ -63,6 +76,7 @@ const ProjectCard = ({
 
         </div>
       </div>
+      </ParallaxTilt>
       </motion.div>
 
 

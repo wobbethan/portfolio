@@ -29,18 +29,22 @@ import {
   import cpp from "../assets/cpp.png"
   import angular from "../assets/angular.png"
   import sql from "../assets/sql.png"
-  import uf from "../assets/company/UF.png"
-  import fl from "../assets/flstucco.png"
-  import cal from "../assets/cal.png"
-  import three from "../assets/three.png"
-  import hire from "../assets/hire.png"
-  import test from "../assets/test.gif"
   import working from "../assets/working.gif"
   import heattrack from "../assets/heattrack.gif"
   import dung from "../assets/dung.gif"
   import website from "../assets/website.gif"
+  import chris from "../assets/chris.png"
+  import evan from "../assets/evanweb.png"
+  import avalan from "../assets/avalan.gif"
+  import reece from "../assets/reece.png"
+  import florida from "../assets/florida.gif"
+  import job from "../assets/job.gif"
+  import grad from "../assets/grad.gif"
+  import numThree from "../assets/numThree.gif"
+  import misc from "../assets/misc.png"
+  import club from "../assets/ufLogo.png"
+  import threefive from "../assets/flcirc.png"
 
-  
   export const navLinks = [
     {
       id: "about",
@@ -59,19 +63,19 @@ import {
   const services = [
     {
       title: "Undergraduate Student",
-      icon: web,
+      icon: florida,
     },
     {
       title: "3rd year CompSci Student",
-      icon: mobile,
+      icon: numThree,
     },
     {
       title: "May 2024 Expected Graduation",
-      icon: backend,
+      icon: grad,
     },
     {
       title: "Seeking Employment/Internships",
-      icon: creator,
+      icon: job,
     },
   ];
   
@@ -129,37 +133,38 @@ import {
     {
       title: "IT Intern",
       company_name: "Florida Stucco | Pool Plaster Manufacturer",
-      icon: tesla,
+      icon: threefive,
       iconBg: "#E6DEDD",
       date: "Aug 2019 - Aug 2023",
       points: [
-        "Created properitary software to keep track of shipping information and assit in company scheduling, included import/export counts as well as real time weather radar",
+        "Created proprietary software to keep track of shipping information and assist in company scheduling, included import/export counts as well as real time weather radar",
         "Developing and maintaining company property and other related technologies.",
-        "Company liason for larger tech companies and service providers",
-        "Assisted in other departments such as accounting, production, and customer service handling day to day activites such as customer calls, scheduling product pickups, and general AR/AP",
+        "Company liaison for larger tech companies and service providers",
+        "Assisted in other departments such as accounting, production, and customer service handling day to day activities such as customer calls, scheduling product pickups, and general AR/AP",
       ],
     },
     {
       title: "Guitar Instructor",
       company_name: "UF Gator for Music club",
-      icon: shopify,
+      icon: club,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Responsible for instruction and mentoring of students",
+        "Responsible for instruction and mentoring of students while they learn to play the guitar",
         "Students start with no experience then perform in end of semester recital ",
+        "Instruction includes one on one style lesson formats with prepared worksheet material created by me"
       ],
     },
     {
       title: "Miscellaneous Experiences",
-      company_name: "",
-      icon: starbucks,
+      company_name: "Work experience outside of degree",
+      icon: misc,
       iconBg: "#383E56",
       date: "January 2018 - May 2020",
       points: [
         "Digital media volunteer through multiple south Florida churches",
-        "Theater Camera Operator",
-        "Delivery Driver",
+        "Country club camera operator",
+        "Delivery driver through Doordash",
         
       ],
     },
@@ -169,27 +174,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Ethan is great to work with, he is always willing to put in the extra work whenever necessary, he's been invaluable to our project [Ga1ors].",
+      name: "Reece McDonald",
+      designation: "Computer Science Student",
+      company: "University of Florida",
+      image: reece,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Ethan is good to work with since he is detail oriented and wants to get things done.",
+      name: "Christian Bello",
+      designation: "Computer Science Student",
+      company: "University of Florida",
+      image: chris,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Ethan is a really creative problem solver, he's able to come up with alot of various methods to complete the task at hand.",
+      name: "Evan Carey",
+      designation: "Computer Science Student",
+      company: "University of Florida",
+      image: evan,
     },
   ];
   
@@ -197,7 +202,7 @@ import {
     {
       name: "Miami Heat Game Tracker",
       description:
-        "Fictional Database of 100,000 randomly generated Miami Heat Games. Purpose of project was to compare efficiency of RB-Trees with B-Tree",
+        "Fictional database of 100,000 randomly generated Miami Heat Games. Purpose of project was to compare insertion/retrieval efficiency of RB-Trees and B-Trees.",
       tags: [
         {
           name: "C++",
@@ -219,7 +224,7 @@ import {
     {
       name: "3-Band Equalizer",
       description:
-        "Controls the low, mid, and high frequencies of audio , program is implemented as a vst3 plugin and is compatible with professional digital audio workstations",
+        "Controls the low, mid, and high frequencies of audio. Program is implemented as a vst3 plugin and is compatible with professional digital audio workstations",
       tags: [
         {
           name: "C++",
@@ -240,7 +245,7 @@ import {
     {
       name: "Dungeon Speed-Runner",
       description:
-        "this game is set in a dungeon created with the Unity engine where the user is timed on how long it takes for them to find 5 hidden scrolls throughout the dungeon.",
+        "This game is set in a dungeon created with the Unity engine where the user is timed on how long it takes for them to find 5 hidden scrolls throughout the dungeon.",
       tags: [
         {
           name: "Unity Engine",
@@ -258,7 +263,7 @@ import {
     {
       name: "Tiny Avalanche",
       description:
-        "Generates textured terrain from Perlin noise input simulating mountains with snow peaks and valleys with lakes. Upon button click, an avalanche occurs from the mountain peaks slowly coating the rest of the terrain in snow.",
+        "Generates textured terrain from perlin noise input simulating mountains with snow peaks and valleys with lakes. Upon button click, an avalanche occurs from the mountain peaks slowly coating the rest of the terrain in snow.",
       tags: [
         {
           name: "Processing",
@@ -270,13 +275,13 @@ import {
         },
 
       ],
-      image: tripguide,
+      image: avalan,
       source_code_link: "https://github.com/wobbethan/TinyAvalanche",
     },
     {
       name: "Portfolio Website",
       description:
-        "This website itself is one of my projects! Using internet tutorials and documentation I was able to create my very own porfolio website",
+        "This website itself is one of my projects! Using internet tutorials and documentation I was able to create my very own porfolio website with React and ThreeJS",
       tags: [
         {
           name: "React",
