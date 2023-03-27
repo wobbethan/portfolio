@@ -6,6 +6,18 @@ import { navLinks } from '../constants';
 import { menu,close } from '../assets';
 import ewlogo from '../assets/ewlogo.png'
 
+const downloadResume = () => {
+  fetch('wobb_ethan_resume.pdf').then(response => {
+      response.blob().then(blob => {
+          const fileURL = window.URL.createObjectURL(blob);
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'wobb_ethan_resume.pdf';
+          alink.click();
+      })
+  })
+}
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -81,6 +93,13 @@ const Navbar = () => {
         </div>
         
       </div>
+        <button
+            type = 'download'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+            style = {{backgroundColor: '#915eff'}}         
+            onClick ={downloadResume}   >
+                Download Résumé
+            </button>
     </nav>
   )
 }
