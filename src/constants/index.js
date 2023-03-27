@@ -44,6 +44,7 @@ import {
   import misc from "../assets/misc.png"
   import club from "../assets/ufLogo.png"
   import threefive from "../assets/flcirc.png"
+  import 'bootstrap/dist/css/bootstrap.min.css';
 
   export const navLinks = [
     {

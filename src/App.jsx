@@ -6,15 +6,16 @@ import Background from "./components/canvas/Background";
 
 
 
-
 const App = () => {
 
   return (
     <BrowserRouter>
     <div className = "relative z-0" style = {{backgroundColor: '#022f40'}}> 
-      <div className = "bg-primary bg-cover bg-no-repeat bg-center" style = {{backgroundColor: '#022f40'}}> 
+      <div className = " bg-cover bg-no-repeat bg-center"> 
+
           <Navbar />
           <Hero />
+
       </div>
      
       <StarsCanvas />
