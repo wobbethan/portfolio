@@ -91,15 +91,15 @@ const Navbar = () => {
           </div>
 
         </div>
-        
-      </div>
         <button
             type = 'download'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+            className='word-wrap text-center ml-5 h-12 bg-tertiary py-3 px-4 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
             style = {{backgroundColor: '#915eff'}}         
             onClick ={downloadResume}   >
                 Download Résumé
             </button>
+      </div>
+        
     </nav>
   )
 }
